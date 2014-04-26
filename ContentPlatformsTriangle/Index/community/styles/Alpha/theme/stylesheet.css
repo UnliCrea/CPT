@@ -1,0 +1,30 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:         Alpha
+   	Based on style:      prosilver (the default phpBB 3.0.x style)
+   	Original author:   Tom Beddard ( http://www.subblue.com/ )
+   	Modified by:      Lacey Sutton ( http://www.dinosaurfact.net/ )
+    --------------------------------------------------------------
+*/
+
+@font-face {
+    font-family: 'beb';
+    src: url('{T_THEME_PATH}/fonts/bebas___-webfont.eot');
+    src: url('{T_THEME_PATH}/fonts/bebas___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('{T_THEME_PATH}/fonts/bebas___-webfont.woff') format('woff'),
+         url('{T_THEME_PATH}/fonts/bebas___-webfont.ttf') format('truetype'),
+         url('{T_THEME_PATH}/fonts/bebas___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url("common.css");
+@import url("links.css");
+@import url("content.css");
+@import url("buttons.css");
+@import url("cp.css");
+@import url("forms.css");
+@import url("tweaks.css");
+@import url("colours.css");
+@import url("alpha.css");

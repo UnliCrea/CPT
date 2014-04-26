@@ -1,0 +1,503 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Buttercream\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-11 08:58-0500\n"
+"PO-Revision-Date: 2012-04-11 08:58-0500\n"
+"Last-Translator: Caroline Moore <calobee@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;esc_attr_e;__\n"
+"X-Poedit-Basepath: ../languages\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:16
+msgid "Oops! 404 Not Found"
+msgstr ""
+
+#: ../404.php:20
+msgid "Well, this is awkward. Can I interest you in a search?"
+msgstr ""
+
+#: ../archive.php:22
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../archive.php:25
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../archive.php:32
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../archive.php:40
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../archive.php:43
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../archive.php:46
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../archive.php:49
+msgid "Archives"
+msgstr ""
+
+#: ../archive.php:91
+msgid "Nothing Found"
+msgstr ""
+
+#: ../archive.php:95
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../comments.php:16
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:39
+#: ../comments.php:59
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:40
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:41
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:60
+msgid "&laquo; Older Comments"
+msgstr ""
+
+#: ../comments.php:61
+msgid "Newer Comments &raquo;"
+msgstr ""
+
+#: ../comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-aside.php:12
+#: ../content-audio.php:13
+#: ../content-chat.php:12
+#: ../content-gallery.php:15
+#: ../content-image.php:12
+#: ../content-link.php:13
+#: ../content-page.php:12
+#: ../content-quote.php:13
+#: ../content-single.php:10
+#: ../content-status.php:12
+#: ../content-video.php:12
+#: ../content.php:10
+msgid "Edit"
+msgstr ""
+
+#: ../content.php:25
+msgid "Continue reading <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#: ../content.php:45
+msgid "Leave a comment"
+msgstr ""
+
+#: ../content.php:45
+msgid "1 Comment"
+msgstr ""
+
+#: ../content.php:45
+msgid "% Comments"
+msgstr ""
+
+#: ../footer.php:23
+msgid "Buttercream Theme by Caroline Moore"
+msgstr ""
+
+#: ../footer.php:24
+msgid "Copyright"
+msgstr ""
+
+#: ../footer.php:25
+msgid "Powered by WordPress"
+msgstr ""
+
+#: ../footer.php:33
+msgid "Menu"
+msgstr ""
+
+#: ../footer.php:34
+msgid "Skip to content"
+msgstr ""
+
+#: ../functions.php:71
+msgid "Header Menu"
+msgstr ""
+
+#: ../functions.php:108
+#: ../sidebar.php:11
+msgid "First Sidebar"
+msgstr ""
+
+#: ../functions.php:118
+#: ../sidebar-2.php:11
+msgid "Second Sidebar"
+msgstr ""
+
+#: ../functions.php:128
+#: ../sidebar-3.php:11
+msgid "Third Sidebar"
+msgstr ""
+
+#: ../header.php:33
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../image.php:24
+#, php-format
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: ../image.php:38
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../image.php:39
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../image.php:86
+msgid "Pages:"
+msgstr ""
+
+#: ../image.php:92
+#, php-format
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: ../image.php:94
+#, php-format
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: ../image.php:96
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: ../image.php:98
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: ../index.php:41
+msgid "No posts to display"
+msgstr ""
+
+#: ../index.php:45
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../search.php:49
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../searchform.php:10
+msgid "Search"
+msgstr ""
+
+#: ../searchform.php:11
+msgid "Search &hellip;"
+msgstr ""
+
+#: ../searchform.php:12
+msgid "Go"
+msgstr ""
+
+#: ../inc/template-tags.php:26
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:36
+msgid "<span class=\"meta-nav\">&laquo;</span> Previous"
+msgstr ""
+
+#: ../inc/template-tags.php:40
+msgid "Next <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#: ../inc/template-tags.php:65
+msgid "Pingback:"
+msgstr ""
+
+#: ../inc/template-tags.php:75
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../inc/template-tags.php:78
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../inc/template-tags.php:86
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../inc/template-tags.php:124
+msgid "Permanent Link to"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:39
+#: ../inc/theme-options/theme-options.php:305
+msgid "Theme Style"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:42
+#: ../inc/theme-options/theme-options.php:306
+msgid "Responsive Layout"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:44
+#: ../inc/theme-options/theme-options.php:307
+msgid "Custom CSS"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:48
+msgid "Support Caroline Themes"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:81
+#: ../inc/theme-options/theme-options.php:82
+#: ../inc/theme-options/theme-options.php:353
+msgid "Theme Options"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:104
+msgid "Confetti"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:108
+msgid "Chocolate Orange"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:112
+msgid "Red Velvet"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:174
+msgid "Add any custom CSS rules here so they will persist through theme updates."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:189
+msgid "If you enjoy my themes, please consider making a secure donation using the PayPal button to your right. Anything is appreciated!"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:193
+msgid "No, thank you! Dismiss this message."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:200
+msgid "Hide Donate Button"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:219
+msgid "Enable responsive layout (design will shrink to fit smaller screen sizes)"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:234
+#, php-format
+msgid "%s Theme Options"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:304
+msgid "For basic support, please post in the WordPress forums."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:305
+msgid "This is where you can choose the overall look and feel of your blog. Defaults to Confetti."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:306
+msgid "If enabled, your blog will shrink to better fit smaller screen sizes and mobile devices. Turned off by default."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:307
+msgid "You can override the theme's default CSS by putting your own code here.  It should be in the format:"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:310
+msgid "Replacing any classes, ID's, etc. with the ones you want to override, and within them the attributes you want to change."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:311
+msgid "Support Caroline Themes/Hide Donate Button"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:311
+msgid "If you like my themes and find them useful, please donate!  Checking the box will hide this information."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:312
+msgid "Visit Caroline Themes for more free WordPress themes!"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:315
+msgid "Buttercream is a sleek theme out of the box, but post formats make it shine. It works seamlessly with"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:315
+msgid "Crowd Favorite's Post Formats Admin UI"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:317
+msgid "If you don't have or want to use the plugin, you can also use the custom fields (keys and values) noted below."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:318
+msgid "If you don't use the custom fields, whatever you place in the post content area will be displayed instead, however it won't have any special formatting."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:319
+msgid "Here's how to make the most of your microblog with Buttercream:"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:320
+msgid "Audio"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:321
+#: ../inc/theme-options/theme-options.php:327
+#: ../inc/theme-options/theme-options.php:337
+#: ../inc/theme-options/theme-options.php:341
+#: ../inc/theme-options/theme-options.php:343
+msgid "Key"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:322
+#: ../inc/theme-options/theme-options.php:328
+#: ../inc/theme-options/theme-options.php:338
+#: ../inc/theme-options/theme-options.php:342
+#: ../inc/theme-options/theme-options.php:344
+msgid "Value"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:322
+#: ../inc/theme-options/theme-options.php:328
+msgid " - Embed code or OEmbed URL"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:323
+msgid "Insert an OEmbed link or Embed code into the custom field. You may use WordPress' native [audio] embed. When using the [audio] shortcode, this format works best:"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:325
+msgid "Where http://myurl.com/audiofile.mp3 is the path to your (MP3) audio file and FFFFFF is a hex color value that most closely matches the background color of your chosen theme style."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:325
+msgid "For more information on how to use WordPress audio embeds, follow the guide here."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:326
+msgid "Video"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:329
+msgid "Insert an OEmbed link or Embed code into the custom field."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:329
+msgid "For more information on embedding video in WordPress, look here."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:330
+msgid "Image"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:331
+msgid "Set a Featured Image, and if provided, the post title will become the image caption."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:332
+msgid "Gallery"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:333
+msgid "Simply insert your WordPress gallery into the content area. Your blog index page will display the first three images in the gallery followed by the post title, which links to the full gallery."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:334
+msgid "Chat"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:335
+msgid "Paste a chat transcript into the content area."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:336
+msgid "Link"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:338
+msgid "Link URL"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:339
+msgid "The post title will be displayed as the link text. Additional content will be displayed underneath."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:340
+msgid "Quote"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:342
+msgid "Name of the quote's source (optional)"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:344
+msgid "Link to the source (optional)"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:345
+msgid "Simply put the text you want to quote in the content area of your post. Optionally, you can add the name of the source and a link in the custom fields above. The quote is displayed in a blockquote format, set apart from your other posts. No post title is displayed."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:346
+msgid "Aside"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:347
+msgid "Similar to a Facebook update. Paste your aside into the content area and the text will appear centered in a fancier font. No post title is displayed."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:348
+msgid "Status"
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:349
+msgid "Similar to a Twitter post. Paste your status update into the content area and the text will appear with a timestamp. No post title is displayed."
+msgstr ""
+
+#: ../inc/theme-options/theme-options.php:360
+msgid "Using Post Formats"
+msgstr ""
+

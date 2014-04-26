@@ -1,0 +1,7 @@
+SetEnv no-gzip dont-vary
+
+RewriteEngine on
+RewriteBase /
+ReWriteRule ^(devblog|community|tweets|TempUploads|analytics|analytics2)($|/) - [L]
+RewriteCond %{REQUEST_URI}  !(\.png|\.jpg|\.gif|\.jpeg|\.bmp|\.css|\.ttf|\.otf|\.eot|\.woff|\.svg|\.js|\.swf|\.mp3)$
+RewriteRule ^(.*)$ index.php [QSA]

@@ -1,0 +1,378 @@
+# Copyright (C) 2013 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/haiku-minimalist-audio-player\n"
+"POT-Creation-Date: 2013-02-26 19:04:38+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: tags/0.1.1/haiku-player.php:100 tags/0.1.2/haiku-player.php:100
+#: tags/0.1.3/haiku-player.php:100 tags/0.2.0/haiku-player.php:128
+#: tags/0.2.0a/haiku-player.php:128 tags/0.3.0/haiku-player.php:137
+#: tags/0.3.1/haiku-player.php:168 tags/0.4.0/haiku-player.php:231
+msgid "Save"
+msgstr ""
+
+#: tags/0.2.0/haiku-player.php:153 tags/0.2.0a/haiku-player.php:153
+#: tags/0.3.0/haiku-player.php:167 tags/0.3.1/haiku-player.php:141
+#: tags/0.4.0/haiku-player.php:204 tags/0.4.1/haiku-admin.php:60
+#: tags/0.4.2/haiku-admin.php:60 tags/0.4.3/haiku-admin.php:60
+#: tags/0.4.4/haiku-admin.php:60 tags/0.4.5/haiku-admin.php:60
+#: tags/0.4.6/haiku-admin.php:60 trunk/admin/haiku-admin.php:54
+msgid "Save Changes"
+msgstr ""
+
+#: trunk/admin/custom-player.php:55
+msgid "Haiku Custom Players"
+msgstr ""
+
+#: trunk/admin/custom-player.php:56
+msgid "Build custom, reusable Haiku audio players."
+msgstr ""
+
+#: trunk/admin/custom-player.php:57
+msgid "Custom Players"
+msgstr ""
+
+#: trunk/admin/custom-player.php:58 trunk/admin/custom-player.php:59
+msgid "Add Custom Player"
+msgstr ""
+
+#: trunk/admin/custom-player.php:60
+msgid "Edit Custom Player"
+msgstr ""
+
+#: trunk/admin/custom-player.php:61
+msgid "New Custom Player"
+msgstr ""
+
+#: trunk/admin/custom-player.php:62
+msgid "View Custom Player"
+msgstr ""
+
+#: trunk/admin/custom-player.php:63
+msgid "Search Custom Players"
+msgstr ""
+
+#: trunk/admin/custom-player.php:64
+msgid "Nothing Found"
+msgstr ""
+
+#: trunk/admin/custom-player.php:65
+msgid "Nothing Found in Trash"
+msgstr ""
+
+#: trunk/admin/custom-player.php:93
+msgid "What your custom player will look like:"
+msgstr ""
+
+#: trunk/admin/custom-player.php:125
+msgid "Background color: "
+msgstr ""
+
+#: trunk/admin/custom-player.php:131
+msgid "Icon and bar color: "
+msgstr ""
+
+#: trunk/admin/custom-player.php:137
+msgid "Time text color: "
+msgstr ""
+
+#: trunk/admin/custom-player.php:191
+msgid "Player Preview"
+msgstr ""
+
+#: trunk/admin/custom-player.php:192
+msgid "Player ID"
+msgstr ""
+
+#: trunk/admin/custom-player.php:193
+msgid "Basic Shortcode"
+msgstr ""
+
+#: trunk/admin/custom-player.php:194
+msgid "Date"
+msgstr ""
+
+#: trunk/admin/custom-player.php:234
+msgid "Edit Player &rarr;"
+msgstr ""
+
+#: trunk/admin/haiku-admin.php:21
+msgid "Haiku Player"
+msgstr ""
+
+#: trunk/admin/haiku-admin.php:22
+msgid "Haiku Player Settings"
+msgstr ""
+
+#: trunk/admin/haiku-admin.php:44
+msgid "Haiku - Minimalist Audio Player"
+msgstr ""
+
+#: trunk/admin/haiku-admin.php:45
+msgid "Thanks for downloading Haiku! If you like it, please be sure to <a href=\"http://wordpress.org/extend/plugins/haiku-minimalist-audio-player/\">give us a positive rating in the WordPress repository</a>, it will help other people find the plugin and means a lot to us."
+msgstr ""
+
+#: trunk/admin/haiku-admin.php:83
+msgid "Main Settings"
+msgstr ""
+
+#: trunk/admin/haiku-admin.php:91
+msgid "Default File Location (optional)"
+msgstr ""
+
+#: trunk/admin/haiku-admin.php:100
+msgid "Enable Google Analytics"
+msgstr ""
+
+#: trunk/admin/haiku-admin.php:109
+msgid "Use Graphical Player"
+msgstr ""
+
+#: trunk/admin/haiku-admin.php:118
+msgid "Show Track Time"
+msgstr ""
+
+#: trunk/admin/haiku-admin.php:127
+msgid "Replace all `.mp3` Links"
+msgstr ""
+
+#: trunk/admin/haiku-admin.php:136
+msgid "Replace WP Audio Player [audio: file.mp3] Syntax"
+msgstr ""
+
+#: trunk/admin/haiku-admin.php:172
+msgid "(<i>Right now, your audio files should be located at</i> %s)"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:14
+msgid "Documentation"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:16
+msgid "Contents"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:18
+#: trunk/admin/haiku-documentation.php:28
+msgid "Basic Usage"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:19
+msgid "File Loaction"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:21
+#: trunk/admin/haiku-documentation.php:61
+msgid "Replacements"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:22
+#: trunk/admin/haiku-documentation.php:73
+msgid "Graphical Player"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:23
+#: trunk/admin/haiku-documentation.php:81
+msgid "Other Attributes"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:24
+#: trunk/admin/haiku-documentation.php:100
+msgid "Credits"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:30
+msgid "To get up and running, use a simple shortcode like <code>[haiku url=\"http://example.com/file.mp3\" oga=\"http://example.com/file.oga\" title=\"Title of audio file\"]</code>."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:33
+msgid "The <code>url</code> option should be set to <b>the full URL of the .mp3 audio file you're trying to use</b>. This can also be a relative URL if you've set a default file location <a href=\"#files\">(see below)</a>."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:36
+msgid "The <code>oga</code> attribute is not required, but <b>strongly</b> recommended. This should be a link to a version of the file you're using with your <code>url</code> attribute, but in the <code>.ogg</code> or <code>.oga</code> audio file formats instead of <code>.mp3</code>"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:37
+msgid "The <code>oga</code> attribute is a backup for your main file. Some web browsers don't play <code>.mp3</code> files, meaning that a portion of your audience could be missing out on your audio if you don't have a <code>.ogg</code> or <code>.oga</code> fallback. Some browsers actually prefer these formats to <code>.mp3</code> &mdash; for example, most versions of Firefox will play the <code>.ogg</code> or <code>.oga</code> versions of a file even if a <code>.mp3</code> version is provided."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:40
+msgid "The <code>title</code> option is an optional attribute. The value you enter for this attribute will display between the contorl buttons and track time in the text player. It's also what will be used as a link title for your play buttons and for Google Analytics tracking. "
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:41
+msgid "If no custom title is set, the default text of \"Audio\" will be used for link titles and Analytics labels instead."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:44
+msgid "File Location"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:47
+msgid "WordPress installations usually have upload size limits. If you're experiencing this but need full-size audio files, you can upload your files to a separate folder on your site via FTP."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:48
+msgid "<b>The \"default file location\" field in the Haiku options panel allows you to specify where this folder is</b>, which lets you use relative URLs for your audio files to keep your shortcodes simple and clean."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:49
+msgid "If, for example, all of your audio files are in <code>http://yoursite.com/audio</code>, set the default folder to <code>/audio</code>. If you wanted to display <code>file.mp3</code> and <code>file.ogg</code>, your shortcode would look like this: <code>[haiku url=\"file.mp3\" oga=\"file.ogg\" title=\"Audio Title\"]</code>."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:50
+msgid "You can overwrite this setting on a per-player basis with the attribute <code>defaultpath=disabled</code>. For example, if for one player you instead wanted to link to <code>http://theirsite.com/file.mp3</code>, your shortcode would look like this: <code>[haiku url=\"http://theirsite.com/file.mp3\" defaultpath=disabled]</code>."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:53
+msgid "Google Analytics"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:56
+msgid "The Google Analytics setting in the options panel enables a script which tracks \"Play\" events for your instances of the Haiku player."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:57
+msgid "You <b>must</b> already have Google Analytics tracking installed on your site, <b>using the asynchronous version of the script in the <code>&lt;head&gt;</code> of your HTML document</b>."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:58
+msgid "Each event will display in your Google Analytics account as the title you entered for the <code>title</code> option in the shortcode. If no <code>title</code> exists, the events will show up as \"Audio\"."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:64
+msgid "Haiku includes the ability to automatically turn all <code>.mp3</code> anchor links into a Haiku Player. Simply check the \"Replace all mp3 links\" box in the options panel."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:65
+msgid "For example, <code>&lt;a href=\"http://example.com/file.mp3\"&gt; Audio &lt;/a&gt;</code> will automatically be converted to <code>[haiku url=\"http://example.com/file.mp3\" defaultpath=disabled]</code>."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:66
+msgid "You may experience problems if you have other plugins that also override MP3 links, like Shadowbox."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:69
+msgid "The player is also now drop-in compatible with WordPress Audio Player. If you're replacing a WordPress Audio Player install, check the \"replace WP Audio Player\" box to automatically replace all instances of the WP Audio Player shortcode. (WP Audio Player must be disabled or removed for this to work)."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:70
+msgid "The <code>[haiku]</code> shortcode is still the recommended format, as it allows the \"Title\" field for Google Analytics support."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:75
+msgid "The player includes a graphical mode, which is turned off by default. Enable graphical mode by changing the default setting in the settings panel or by adding the attribute <code>graphical=true</code> to your shortcode."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:76
+msgid "This can be overridden on a per-player basis. You can also select the option on the options panel above and turn <i>off</i> the graphical interface for specific players by adding <code>graphical=false</code> to your shortcode."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:77
+msgid "The graphical player will use the <code>title</code> element for Analytics and for information text when a user hovers over the play button."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:78
+msgid "Example: <code>[haiku url=\"file.mp3\" title=\"A Great Song\" graphical=true]</code>"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:83
+msgid "<code>showtime</code>"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:84
+msgid "If you want the current track position and track duration to display next to your players, check the \"Show Track Time\" option. You can also set this on a per-player basis in your shortcode, with <code>showtime=true</code> or <code>showtime=false</code>."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:85
+msgid "For example, the shortcode <code>[haiku url=\"file.mp3\" oga=\"file.ogg\" graphical=true\" showtime=\"true\"]</code> will produce this:"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:87
+msgid "The same player with <code>showtime=\"false\"</code> instead might look something like this:"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:90
+msgid "<code>loop</code>"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:91
+msgid "Sometimes you want your audio to start playing again right after it's finished &mdash; simply adding <code>loop=true</code> to your shortcode will enable this."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:93
+msgid "<code>class</code>"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:94
+msgid "The <code>class</code> attribute is the easiest way to add a custom CSS class name to a specific player (or multiple players, if you want). For example, you can apply the class name <code>.example-player-class</code> to a player if you simply add <code>class=\"example-player-class\"</code> to its shortcode."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:96
+msgid "<code>player</code>"
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:97
+msgid "If you create a custom player \"skin\", you can use it by first locating its \"Player ID\" (see image below). Then, add a <code>player=x</code> attribute to the shortcodes you want this skin to apply to, where <code>x</code> is the Player ID number."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:103
+msgid "A jQuery plugin that powers Haiku, by <a href=\"http://www.happyworm.com/\">Happyworm</a>."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:106
+msgid "A beautiful, free icon font."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:109
+msgid "A free icon font composer."
+msgstr ""
+
+#: trunk/admin/haiku-documentation.php:115
+msgid "You're using Haiku Player v. %s, made by <a href=\"http://madebyraygun.com\">Raygun</a>. Check out our <a href=\"http://madebyraygun.com/wordpress/plugins/\">other plugins</a>, and if you have any problems, stop by our <a href=\"http://madebyraygun.com/support/\">support forums</a>!"
+msgstr ""
+
+#: trunk/haiku-player.php:114
+msgid "Audio"
+msgstr ""
+
+#: trunk/haiku-player.php:151 trunk/haiku-player.php:288
+msgid "Listen to %s"
+msgstr ""
+
+#: trunk/haiku-player.php:151
+msgid "Play"
+msgstr ""
+
+#: trunk/haiku-player.php:152 trunk/haiku-player.php:289
+msgid "Pause"
+msgstr ""
+
+#: trunk/haiku-player.php:153 trunk/haiku-player.php:290
+msgid "Stop"
+msgstr ""
+
+#: trunk/haiku-player.php:172 trunk/haiku-player.php:312
+msgid "<strong>Update Required</strong><br><span>To play the media you will need to either update your browser to a recent version or update your <a href=\"http://get.adobe.com/flashplayer/\" target=\"_blank\">Flash plugin</a>.</span>"
+msgstr ""
+
+#: trunk/haiku-player.php:419
+msgid "Settings"
+msgstr ""
+
+#: trunk/haiku-player.php:439
+msgid "Get Support"
+msgstr ""
+
+#: trunk/haiku-player.php:440
+msgid "Rate Plugin"
+msgstr ""

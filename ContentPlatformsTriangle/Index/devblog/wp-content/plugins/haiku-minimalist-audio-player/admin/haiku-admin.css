@@ -1,0 +1,167 @@
+/**
+ *
+ *  Admin, documentation, admin player preview styles
+ *
+ */
+@charset "UTF-8";
+
+.haiku-admin-head {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.haiku-admin-head h1 {
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.haiku-admin-wrap h2 {
+    margin: 0;
+    padding-top: 5px;
+    font-weight: 400;
+}
+.haiku-admin-head p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+table.form-table {
+    margin: 0;
+}
+.haiku-admin-settings {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.wrapper h3 {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+.wrapper dt,
+.wrapper dt a {
+    font-weight: bold;
+}
+.wrapper dd {
+    margin-left: 5px;
+}
+
+
+/* = custom player default preview
+----------------------------------------------- */
+@font-face {
+  font-family: 'fontello';
+  src: url('../inc/icons/fontello.eot');
+  src: url('../inc/icons/fontello.eot?#iefix') format('embedded-opentype'),
+       url('../inc/icons/fontello.woff') format('woff'),
+       url('../inc/icons/fontello.ttf') format('truetype'),
+       url('../inc/icons/fontello.svg#fontello') format('svg');
+  font-weight: normal; font-style: normal;
+}
+.haiku-container {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    clear: both;
+    display: inline-block;
+}
+.haiku-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+}
+.haiku-container li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+    float: left;
+}
+.haiku-graphical-container {
+    height: 30px;
+    width: auto;
+    padding: 5px;
+    line-height: 30px;
+    background: #969696;
+    color: #fff;
+}
+.haiku-graphical-container li {
+    float: left;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.haiku-graphical-container a {text-decoration:none;}
+.haiku-graphical-container a:hover {text-decoration:none;}
+.haiku-graphical-container li.haiku-gui {
+    width: 40px;
+    min-height: 28px;
+    height: 100%;
+    overflow: hidden;
+}
+.haiku-graphical-container li.haiku-gui a {
+    margin: 0 4px 0 0;
+    font-family: fontello;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+    float: left;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+.haiku-pause {
+    margin-right: 0 !important;
+    padding-right: 0;
+}
+a.haiku-stop {display: none !important;}
+
+li.haiku-seek-container {
+    margin: 10px 10px 0 5px;
+    width: 130px;
+    background: #fff;
+}
+div.haiku-seek-bar {
+    width: 37.0909091%;
+    float: right;
+    height: 2px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border-top: 5px solid #969696;
+    border-bottom: 5px solid #969696;
+}
+div.haiku-play-bar {
+    height: 10px;
+    width: 62.9090909%;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+/* =custom player column adjustments
+----------------------------------------------- */
+.wp-list-table th.column-custom_player_preview,
+.wp-list-table td.column-custom_player_preview {
+    width: 300px !important;
+}
+.wp-list-table span.haiku-column-player-id {
+    font-size: 1em;
+    margin-right: 1em;
+}
+.wp-list-table td.column-custom_player_id,
+.wp-list-table td.column-custom_player_shortcode {
+    vertical-align: middle !important;
+}
+.haiku-code {
+    background: none repeat scroll 0 0 #EAEAEA;
+    font-size: 11px;
+    margin: 0 1px;
+    padding: 1px 3px;
+    font-family: Consolas,Monaco,monospace;
+}

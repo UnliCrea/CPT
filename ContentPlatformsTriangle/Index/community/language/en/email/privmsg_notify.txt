@@ -1,0 +1,18 @@
+Subject: New private message - Concerned Joe
+<img src="http://concernedjoe.com/Theme/Images/Email%20Headers/header_message.png"><br><br>
+
+Hello {USERNAME},<br>
+You have received a new private message from "{AUTHOR_NAME}" with the following subject: "{SUBJECT}" <br><br>
+
+You can view your new message by clicking on the following link:<br><br>
+
+<a href="{U_VIEW_MESSAGE}">{U_VIEW_MESSAGE}</a><br><br>
+
+Now go be an awesome user and reply :D<br><br>
+
+---------------------------------<br><br>
+
+If you don't want to receive these notifications anymore, go to our site, log in and uncheck "notifications" from the account settings page.
+Or click this link to go to the account settings
+
+<a href="http://concernedjoe.com/user">User Page</a>

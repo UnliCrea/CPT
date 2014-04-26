@@ -1,0 +1,42 @@
+@charset 'utf-8';
+
+#joe_title_text {
+	color: #A564F2;
+	font-size: 55px;
+}
+
+#joe_subtitle_text {
+	font-family: 'contentfont';
+	color:#939393;
+	font-size: 20px;
+}
+.regulartext{
+	line-height: 40%;
+}
+.tablelines{
+	width: 900px;
+	border-width: 2px;
+}
+.notetext{
+	font-size: 13px;
+}
+.Disclaimer {
+	color: #939393;
+	font-size: 15px;
+	font-family: 'disclaimerfont';
+	line-height: 15px;
+	text-align: center;
+}
+table,th,td
+{
+border:1px solid black;
+border-collapse:collapse;
+}
+th,td
+{
+padding:5px;
+}
+th
+{
+text-align:left;
+}

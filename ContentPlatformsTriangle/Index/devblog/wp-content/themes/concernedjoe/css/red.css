@@ -1,0 +1,95 @@
+/**
+ * @package Buttercream
+ */
+
+body {
+	background-color: #373737;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #3284c4;
+}
+.entry-title,
+.entry-title a {
+	color: #373737;
+}
+a.post-edit-link,
+a.comment-edit-link,
+.post-date a,
+.post-date a:visited {
+	color: #292929;
+}
+blockquote {
+	border-left: 4px solid #0006f2;
+}
+th {
+	background-color: #444;
+}
+.post-date {
+	background-image:url(../img/postdate-red.png);
+}
+a.post-edit-link,
+a.comment-edit-link,
+.post-comments a,
+.post-comments a:visited,
+.post-comments span {
+	background-color: #444;
+}
+.site-title,
+.site-title a,
+h1, h2, h3, h4, h5, h6,
+h2.widget-title,
+footer#colophon {
+	color: #3284c4;
+}
+.site-description {
+	color: #373737;
+}
+#searchform #searchsubmit {
+	background-color: #e3e3e3;
+}
+.page-links span.active-link,
+.page-links a span.active-link:hover {
+	background-color: #666;
+}
+.page-links a span.active-link,
+.post-navigation,
+.paging-navigation {
+	background-color: #c7c7c7;
+	font-size: 20px;
+}
+#header-image {
+	background-image:url(../img/red.png);
+}
+.cat-links {
+	background-image:url(../img/folder-red.png);
+}
+.tag-links {
+	background-image:url(../img/tag-red.png);
+}
+.bluebar {
+	background-image:url(../img/bar-red.png);
+}
+#header-imagesm {
+	background-image:url(../img/red-sm.png);
+}
+#header-image {
+	background-image:url(../img/red.png);
+}
+.navbar {
+	background-color: #444;
+    border-top-color: #333;
+}
+#header-menu ul.menu li {
+	background-color: #444;
+}
+#header-menu ul.menu ul li {
+	background-color: #666;
+	border-left-color: #333;
+	border-top-color: #333;
+}
+#header-menu ul li.menu-item {
+	border-top-color: #333;
+}

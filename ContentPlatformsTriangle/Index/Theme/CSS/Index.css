@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+#joe_movie {
+	background-image: url('../Images/Index/joes.png');
+	width: 818px; /* 995 - padding-left */
+	height: 369px;
+	padding-left: 177px;
+}
+
+#share_area {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.multi_line_image {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* Rock Paper Shotgun review */
+.awesome_review {
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 25px; /* When changing this remember to remove from the height value below */
+	background-image: url('../Images/Index/quote.png');
+	 /* height: 86px; 146 - 25(padding top) - 25(padding bottom) */
+}
+
+.awesome_review_single {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 25px; /* When changing this remember to remove from the height value below */
+	background-image: url('../Images/Index/quote.png');
+	 /* height: 70px; 146 - 25(padding top) - 25(padding bottom) */
+}
+
+/* Rock Paper Shotgun review */
+.awesome_review_text {
+	color: #da4837;
+	font-size: 24px;
+	font-family: 'coolveticaregular';
+	line-height: 90%;
+}
+
+.jeffbutton{
+	color: #2ea4db;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.awesome_review_text_single {
+	color: #da4837;
+	font-size: 24px;
+	font-family: 'coolveticaregular';
+	line-height: 90%;
+}
+
+/* Rock Paper Shotgun review */
+.awesome_review_text_author {
+	line-height:40px;
+	font-size: 20px;
+	color: #939393;
+}
+
+.section_title {
+	color: #da4837;
+	font-size: 36px;
+}
+
+#coming_sometime {
+	text-align: center;
+	background-image: url('../Images/Index/platforms.png');
+	height: 146px;
+}
+
+#coming_sometime_text {
+	vertical-align: -130px;
+}
+
+#joe_subtitle_text {
+	font-size: 23px;
+	letter-spacing: 1px
+}
+
+#joe_title_text {
+	font-size: 75px;
+	line-height: 75px;
+}
+
+.left_section {
+	width: 500px;
+}

@@ -1,0 +1,36 @@
+@charset 'utf-8';
+
+#joe_title_text {
+	color: #DA4837;
+	font-size: 55px;
+}
+
+#joe_subtitle_text {
+	font-family: 'contentfont';
+	color:#939393;
+	font-size: 20px;
+}
+.headline {
+	color: #da4837;
+	font-size: 35px;
+	font-family: 'coolveticaregular';
+	line-height: 90%;
+}
+.regulartext{
+	line-height: 100%;
+}
+
+.redtext{
+	line-height: 100%;
+	color: #DA4837;
+}
+
+.disclaimer{
+	color: #939393;
+	font-size:15px;
+	font-family: 'disclaimerfont';
+}
+
+.left_section {
+	width: 500px;
+}

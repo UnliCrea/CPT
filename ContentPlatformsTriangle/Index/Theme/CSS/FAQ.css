@@ -1,0 +1,36 @@
+@charset 'utf-8';
+
+#joe_title_text {
+	color: #A564F2;
+	font-size: 55px;
+}
+
+#joe_subtitle_text {
+	font-family: 'contentfont';
+	color:#939393;
+	font-size: 20px;
+}
+
+.left_section {
+	width: 900px;
+}
+
+.section_title {
+	color: #A564F2;
+	letter-spacing:1px;
+	font-size: 25px;                
+}
+
+.section_text {
+    margin-left: 0;
+    padding-left: 0px;
+    padding-top:-10px;
+    padding-bottom:50px;
+    line-height: 80%;
+    float: left;
+    list-style-position: inside;
+}
+
+.invisible {
+    color: #e6e6e6;
+}

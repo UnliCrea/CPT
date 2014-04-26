@@ -1,0 +1,110 @@
+@charset 'utf-8';
+
+            #joe_title {
+                /* Align text everywhere inside the title area */
+                text-align: center;
+
+                font-family: 'bebas_neueregular';
+                line-height: 35px;
+                padding-top: 20px;
+            }
+
+            #joe_title_text {
+                /* Other font related stuff here */
+                text-align: center;
+                color:#2564B3;
+                text-shadow: 2px 2px #d5d5d5;
+                /*padding-left: 10px; */
+                font-size: 55px;
+            }
+
+            #joe_subtitle_text {
+                /* Other font related stuff here */
+                font-family: 'contentfont';
+                color:#939393;
+                text-align: center;
+                text-shadow: 2px 2px #d5d5d5;
+                font-size: 20px;
+            }
+
+            .awesome_review_single {
+                text-align: center;
+
+                padding-top: 20px;
+            }
+
+            .awesome_review_text {
+                color: #4b4b4b;
+                font-size:15px;
+                line-height:1px;
+                font-family: 'coolveticaregular';
+            }
+
+            .contactform{
+                width: "600px";
+                text-align: center;
+            }
+            
+            #inputfield{
+                border-radius: 5px; /* CSS3 */
+                font-family: "contentfont";
+                font-size: 20px;
+                width: 250px;
+                margin-left:22px;
+                margin-right:22px;
+                margin-bottom:10px;
+            }
+
+            #textfield{
+                border-radius: 5px; /* CSS3 */
+                font-family: "contentfont";
+                font-size: 20px;
+                width: 550px;
+                margin-bottom:10px;
+                max-width: 900px;
+                max-height: 900px;
+            }
+
+             #captcha{
+                border-radius: 5px; /* CSS3 */
+                font-family: "contentfont";
+                font-size: 20px;
+                width: 100px;
+                margin-bottom:10px;
+                margin-right:20px;
+            }
+
+            .GreenSubmitButton {
+
+                -moz-box-shadow: inset 0px -2px 0px 0px #c1ed9c;
+                -webkit-box-shadow: inset 0px -2px 0px 0px #c1ed9c;
+                box-shadow: inset 0px -2px 0px 0px #c1ed9c;
+
+                background-color: #9dce2c !important;
+
+                -webkit-border-radius: 5px;
+                -moz-border-radius:5px;
+                border-radius:5px !important;
+
+                text-indent: 0;
+                border: 1px solid #83c41a !important;
+                display: inline-block;
+                color: #ffffff;
+                font-family: Arial !important;
+                font-size: 15px !important;
+                font-weight: bold;
+                font-style: normal;
+                height: 35px;
+                line-height: 35px;
+                width: 100px !important;
+                text-decoration: none;
+                text-align: center;
+                text-shadow: 1px 1px 0px #689324;
+
+                cursor: pointer !important;
+                outline: none;
+
+                position: relative;
+
+                margin-top: 25px !important;
+            }

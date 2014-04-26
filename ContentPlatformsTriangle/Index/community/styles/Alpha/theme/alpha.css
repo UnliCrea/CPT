@@ -1,0 +1,181 @@
+.fl {float: left;}
+.fr {float: right;}
+.cb {clear: both;}
+
+a#logo {
+	/* See: https://www.phpbb.com/kb/article/changing-your-board-logo/
+	for changing logo image */
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#banner {
+	padding-bottom: 20px;
+	background: url("{T_THEME_PATH}/images/example-banner.png") repeat left top;
+}
+
+ul.userlinks {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+ul.userlinks li {
+	float: left;
+	margin-left: 10px;
+}
+
+ul.userlinks li a {
+	display: block;
+	font-size: 1.3em;
+	background: rgba(247,247,247,0.5);
+	font-family: "beb", Arial, Helvetica, sans-serif;
+	word-spacing: 5px;
+	border-bottom: 3px solid #e0591e;
+	line-height: 80px;
+	padding: 0 30px;
+}
+
+ul.userlinks li a:hover {
+	text-decoration: none;
+}
+
+ul.userlinks li a strong {
+	color: #e0591e;
+	margin-right: 5px;
+}
+
+.navigation {
+	background: #1e2025;
+	font-family: "beb", Arial, Helvetica, sans-serif;
+	word-spacing: 5px;
+	margin-bottom: 20px;
+}
+
+.navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation ul li {
+	float: left;
+}
+
+.navigation ul li a {
+	display: block;
+	border-bottom: 3px solid #1e2025;
+	padding: 16px 16px 12px;
+	font-size: 1.3em;
+	color: #ffffff;
+}
+
+.navigation ul li.active > a, .navigation ul li a:hover {
+	border-bottom-color: #e0591e;
+	text-decoration: none;
+}
+
+.navigation ul li.parent > a {
+	background: url("{T_THEME_PATH}/images/drop.png") no-repeat right 50%;	
+}
+
+.navigation ul li a span { /* wrap nav items in <span> for orange text */
+	color: #e0591e;
+}
+
+/* Optional: Keep navbar parent link underlined when hovering over sub-menu items */
+/* .navigation ul li:hover > a {
+	border-bottom-color: #e0591e;
+}*/
+
+.navigation ul li ul { /* main menu drop down */
+	position: absolute;
+	background: #1E2025;
+	display: none;
+	z-index: 9999;
+}
+
+.navigation ul li:hover > ul {
+	display: block;
+}
+
+.navigation ul li ul li {
+	float: none;
+}
+
+.forumbg span.corners-top, .forumbg span.corners-bottom, .forabg span.corners-top, .forabg span.corners-bottom {
+	display: none;
+}
+
+li.header {
+	background: #1e2025;
+	padding: 10px;
+}
+
+li.header dl.icon dt {
+	font-weight: normal;
+}
+
+
+li.header dl.icon dt a:hover {
+	text-decoration: none;
+}
+
+.alpha-copyright {
+	text-align: center;
+	font-size: 1em;
+	padding-bottom: 40px;
+	font-family: 'contentfont';
+}
+
+.alpha-copyright a {
+	color: #ff4e00;
+}
+
+.breadcrumbs {
+	font-size: 1.3em;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 20px;
+}
+
+table#memberlist th {
+     background: #1E2025;
+     padding: 10px;
+}
+
+.ForumTitle {
+	padding: 0% 3%;
+	text-align: center;
+	font-family: 'bebas_neueregular';
+	padding-top: 20px;
+	font-size: 55px;
+	line-height: 55px;
+	color: #FFB733;
+	text-shadow: 2px 2px #d5d5d5;
+}
+
+.ForumTitle a {
+	color: #FFB733;
+}
+
+.ForumDescription {
+	padding: 1% 0% 3% 0%;
+	font-size: 20px;
+	letter-spacing: -1px;
+	text-align: center;
+	text-shadow: 2px 2px #d5d5d5;
+	font-family: 'contentfont';
+	color: #939393;
+}
+
+.author {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color: #828282;
+	font-size: 11px;
+	line-height: 1.48em;
+	font-weight: normal;
+}
+
+.post .inner .content img { max-width: 100%; }

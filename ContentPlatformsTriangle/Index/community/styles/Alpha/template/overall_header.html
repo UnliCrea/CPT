@@ -1,0 +1,203 @@
+<!-- PHP -->
+define('IN_PHPBB', true);
+if(file_exists('./../../index.php')) { $phpbb_root_path = './../../'; } else { $phpbb_root_path = './../'; }
+require_once($phpbb_root_path . 'index.php');
+$myController = new \Controller\GenericController();
+<!-- ENDPHP -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="{S_CONTENT_DIRECTION}" lang="{S_USER_LANG}" xml:lang="{S_USER_LANG}">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset={S_CONTENT_ENCODING}" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-language" content="{S_USER_LANG}" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+{META}
+<title>{SITENAME} &bull; <!-- IF S_IN_MCP -->{L_MCP} &bull; <!-- ELSEIF S_IN_UCP -->{L_UCP} &bull; <!-- ENDIF -->{PAGE_TITLE}</title>
+
+<!-- IF S_ENABLE_FEEDS -->
+	<!-- IF S_ENABLE_FEEDS_OVERALL --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {SITENAME}" href="{U_FEED}" /><!-- ENDIF -->
+	<!-- IF S_ENABLE_FEEDS_NEWS --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_FEED_NEWS}" href="{U_FEED}?mode=news" /><!-- ENDIF -->
+	<!-- IF S_ENABLE_FEEDS_FORUMS --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_ALL_FORUMS}" href="{U_FEED}?mode=forums" /><!-- ENDIF -->
+	<!-- IF S_ENABLE_FEEDS_TOPICS --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_FEED_TOPICS_NEW}" href="{U_FEED}?mode=topics" /><!-- ENDIF -->
+	<!-- IF S_ENABLE_FEEDS_TOPICS_ACTIVE --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_FEED_TOPICS_ACTIVE}" href="{U_FEED}?mode=topics_active" /><!-- ENDIF -->
+	<!-- IF S_ENABLE_FEEDS_FORUM and S_FORUM_ID --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_FORUM} - {FORUM_NAME}" href="{U_FEED}?f={S_FORUM_ID}" /><!-- ENDIF -->
+	<!-- IF S_ENABLE_FEEDS_TOPIC and S_TOPIC_ID --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_TOPIC} - {TOPIC_TITLE}" href="{U_FEED}?f={S_FORUM_ID}&amp;t={S_TOPIC_ID}" /><!-- ENDIF -->
+<!-- ENDIF -->
+
+<!--
+	phpBB style name: prosilver
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:     Lacey Sutton ( http://www.dinosaurfact.net/ )
+-->
+
+<link href="{T_THEME_PATH}/print.css" rel="stylesheet" type="text/css" media="print" title="printonly" />
+<link href="{T_STYLESHEET_LINK}" rel="stylesheet" type="text/css" media="screen, projection" />
+
+<link href="{T_THEME_PATH}/normal.css" rel="stylesheet" type="text/css" title="A" />
+<link href="{T_THEME_PATH}/medium.css" rel="alternate stylesheet" type="text/css" title="A+" />
+<link href="{T_THEME_PATH}/large.css" rel="alternate stylesheet" type="text/css" title="A++" />
+
+<!-- IF S_CONTENT_DIRECTION eq 'rtl' -->
+	<link href="{T_THEME_PATH}/bidi.css" rel="stylesheet" type="text/css" media="screen, projection" />
+<!-- ENDIF -->
+
+<link rel="stylesheet" type="text/css" href="/Theme/CSS/bootstrap2.css" />
+<link rel="stylesheet" type="text/css" href="/Theme/CSS/fonts.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/Theme/CSS/HeaderFooter.css" />
+
+<script type="text/javascript">
+// <![CDATA[
+	var jump_page = '{LA_JUMP_PAGE}:';
+	var on_page = '{ON_PAGE}';
+	var per_page = '{PER_PAGE}';
+	var base_url = '{A_BASE_URL}';
+	var style_cookie = 'phpBBstyle';
+	var style_cookie_settings = '{A_COOKIE_SETTINGS}';
+	var onload_functions = new Array();
+	var onunload_functions = new Array();
+
+	<!-- IF S_USER_PM_POPUP and S_NEW_PM -->
+		var url = '{UA_POPUP_PM}';
+		window.open(url.replace(/&amp;/g, '&'), '_phpbbprivmsg', 'height=225,resizable=yes,scrollbars=yes, width=400');
+	<!-- ENDIF -->
+
+	/**
+	* Find a member
+	*/
+	function find_username(url)
+	{
+		popup(url, 760, 570, '_usersearch');
+		return false;
+	}
+
+	/**
+	* New function for handling multiple calls to window.onload and window.unload by pentapenguin
+	*/
+	window.onload = function()
+	{
+		for (var i = 0; i < onload_functions.length; i++)
+		{
+			eval(onload_functions[i]);
+		}
+
+		$(window).scroll(function(){
+			var scrollTop = $('body').scrollTop() > 0 ? $('body').scrollTop() : $('html').scrollTop();
+			$('body').css('background-position','center +'+(scrollTop/3)+'px');
+		});
+
+	};
+
+	window.onunload = function()
+	{
+		for (var i = 0; i < onunload_functions.length; i++)
+		{
+			eval(onunload_functions[i]);
+		}
+	};
+
+// ]]>
+</script>
+<script type="text/javascript" src="{T_SUPER_TEMPLATE_PATH}/styleswitcher.js"></script>
+<script type="text/javascript" src="{T_SUPER_TEMPLATE_PATH}/forum_fn.js"></script>
+
+<script type="text/javascript" src="/Theme/JavaScript/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="/Theme/JavaScript/General.js"></script>
+<script type="text/javascript" src="/Theme/JavaScript/jquery-ui-1.10.4.custom.min.js"></script>
+<script type="text/javascript" src="/Theme/JavaScript/bootstrap.min.js"></script>
+<script type="text/javascript" src="/Theme/JavaScript/FancyCaptcha2.js"></script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://concernedjoe.com/analytics/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+<script type="text/javascript">
+// <![CDATA[
+   $(document).ready(function() {
+	  $('.navigation li:has(> ul)').addClass('parent');
+   });
+// ]]>   
+</script>
+
+<link rel="shortcut icon" href="http://concernedjoe.com/analytics/favicon.ico" />
+</head>
+
+<body id="phpbb" class="section-{SCRIPT_NAME} {S_CONTENT_DIRECTION}">
+
+<!-- PHP -->
+echo $myController->phpBBHeader();
+<!-- ENDPHP -->
+
+<div id="wrap">
+	<a id="top" name="top" accesskey="t"></a>
+	
+	<a name="start_here"></a>
+	<div id="page-body">
+		<!-- IF S_BOARD_DISABLED and S_USER_LOGGED_IN and (U_MCP or U_ACP) -->
+		<div id="information" class="rules">
+			<div class="inner"><span class="corners-top"><span></span></span>
+				<strong>{L_INFORMATION}:</strong> {L_BOARD_DISABLED}
+			<span class="corners-bottom"><span></span></span></div>
+		</div>
+		<!-- ENDIF -->
+
+		 <!-- IF SCRIPT_NAME neq 'index' -->
+				<!-- IF SCRIPT_NAME eq 'viewforum' or SCRIPT_NAME eq 'viewtopic' or SCRIPT_NAME eq 'faq' or SCRIPT_NAME eq 'search' or SCRIPT_NAME eq 'ucp' or SCRIPT_NAME eq 'memberlist' or SCRIPT_NAME eq 'mcp' or SCRIPT_NAME eq 'posting' or SCRIPT_NAME eq 'report' -->
+						<!-- IF SCRIPT_NAME neq 'posting' and SCRIPT_NAME neq 'report' -->
+							<div class="ForumTitle"><a href="{U_VIEW_FORUM}">{FORUM_NAME}</a></div>
+							<div class="ForumDescription">{FORUM_DESC}</div>
+						<!-- ENDIF -->
+				<!-- ENDIF -->
+		<!-- ELSE -->
+			<div class="ForumTitle">Keep the conversation going</div>
+			<div class="ForumDescription">What did you have for breakfast? No seriously, what did you have for breakfast?</div>
+		<!-- ENDIF -->
+		
+		<!-- IF SCRIPT_NAME neq 'index' -->
+			<div class="breadcrumbs">
+				<a href="{U_INDEX}">{L_INDEX}</a>
+				<!-- IF SCRIPT_NAME eq 'viewforum' or SCRIPT_NAME eq 'viewtopic' or SCRIPT_NAME eq 'faq' or SCRIPT_NAME eq 'search' or SCRIPT_NAME eq 'ucp' or SCRIPT_NAME eq 'memberlist' or SCRIPT_NAME eq 'mcp' or SCRIPT_NAME eq 'posting' or SCRIPT_NAME eq 'report' -->
+					<!-- BEGIN navlinks -->
+						<!-- IF SCRIPT_NAME neq 'posting' and SCRIPT_NAME neq 'report' -->
+							<strong>&#8249;</strong> <a href="{navlinks.U_VIEW_FORUM}">{navlinks.FORUM_NAME}</a>
+						<!-- ENDIF -->
+					<!-- END navlinks -->
+					
+					<!-- IF SCRIPT_NAME eq 'viewtopic' -->
+						<strong>&#8249;</strong> {TOPIC_TITLE}
+					<!-- ELSEIF SCRIPT_NAME eq 'faq' -->
+						<strong>&#8249;</strong> {L_FAQ}
+					<!-- ELSEIF SCRIPT_NAME eq 'search' -->
+						<strong>&#8249;</strong> {L_SEARCH}
+					<!-- ELSEIF SCRIPT_NAME eq 'ucp' -->
+						<strong>&#8249;</strong> {L_PROFILE}
+					<!-- ELSEIF SCRIPT_NAME eq 'memberlist' -->
+						<strong>&#8249;</strong> {L_MEMBERLIST}
+					<!-- ELSEIF SCRIPT_NAME eq 'mcp' -->
+						<strong>&#8249;</strong> {L_MCP}
+					<!-- ELSEIF SCRIPT_NAME eq 'posting' -->
+						<strong>&#8249;</strong> {L_POST}
+					<!-- ELSEIF SCRIPT_NAME eq 'report' -->
+						<strong>&#8249;</strong> {L_REPORTING_POST}
+					<!-- ENDIF --> 
+				<!-- ENDIF -->
+			</div>
+		<!-- ENDIF -->

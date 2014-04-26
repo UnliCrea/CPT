@@ -1,0 +1,77 @@
+#masthead hgroup {
+	width: 700px;
+}
+.main-navigation,
+#main,
+#content {
+	width: 700px;
+}
+.navbar {
+	position: fixed;
+}
+#header-menu {
+	width: 75%;
+}
+#header-menu ul.menu {
+	float: left;
+}
+#header-menu ul.menu ul li {
+	width: 120px;
+}
+#header-menu ul.menu li:hover > ul {
+	visibility: visible;
+}
+h1.site-title a {
+	font-size: 100%;
+}
+.post-date {
+	right: -32px;
+}
+a.post-edit-link,
+a.comment-edit-link,
+.search .page a.post-edit-link {
+	margin-right: -17px;
+}
+#header-image {
+	margin: 0px auto -60px auto;
+	display: block;
+	z-index: 5;
+	position: relative;
+	background-repeat: no-repeat;
+	width: 800px;
+	height: 150px;
+}
+#header-imagesm {
+	display: none;
+}
+.bluebar {
+	display: none;
+}
+.entry-content img {
+	max-width: 560px;
+}
+.sidebars {
+	width: 600px;
+	margin-top: 30px;
+}
+.widget-area {
+	width: 33%;
+	display: table-cell;
+}
+#sidebar-1 {
+	border-right: 1px dotted #82573f;
+}
+#sidebar-2 {
+	border-right: 1px dotted #82573f;
+}
+#sidebar-3 {
+	margin-right: 0px !important;
+}
+ul.commentlist > li.comment > ul.children,
+ol.commentlist > li.comment > ul.children {
+	padding-left: 180px;
+}
+li.pingback p,
+li.trackback p {
+	width: 390px;
+}

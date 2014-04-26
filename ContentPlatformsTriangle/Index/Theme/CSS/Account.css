@@ -1,0 +1,106 @@
+@charset 'utf-8';
+
+#joe_title_text {
+	color:#E89B0D;
+	font-size: 55px;
+}
+
+#joe_subtitle_text {
+	color:#939393;
+	font-size: 20px;
+	font-family: 'contentfont';
+}
+
+.settings {
+	width: 1000px;
+	text-align: left;
+}
+
+.form {
+	width: 900px;
+	text-align: left;
+	margin-left:50px;
+}
+
+.subtitle {
+	font-size: 20px;
+	color:#939393;
+}
+
+#category {
+	font-size: 30px;
+	font-weight: bold;
+
+	color: #E89B0D;
+	text-shadow: 2px 2px #d5d5d5;
+	font-size: 36px;
+	font-family: 'coolveticaregular';
+}
+
+.fixedData {
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 2px 2px #d5d5d5;
+}
+
+#user {
+	color: #555555;
+	
+}
+
+#redtext {
+	color: #da4837;	
+}
+
+#greentext {
+	color: #00C63C;
+}
+
+input[type=text], input[type=password] {
+	border-radius: 5px; /* CSS3 */
+	font-size: 20px;
+	width: 350px;
+	padding: 5px;
+}
+
+input[type=text] {
+	font-family: "contentfont";
+}
+
+textarea {
+	border-radius: 5px; /* CSS3 */
+	font-family: "contentfont";
+	font-size: 20px;
+	width: 550px;
+	margin-bottom:10px;
+	max-width: 900px;
+	max-height: 900px;
+	padding: 5px;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+  margin: 10px;
+}
+
+#AvatarImage {
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}
+
+#avatarUploadForm {
+	display: none;
+}
+
+#UploadThing {
+	float: right;
+	margin-right: 300px;
+	margin-top: 26px;
+}

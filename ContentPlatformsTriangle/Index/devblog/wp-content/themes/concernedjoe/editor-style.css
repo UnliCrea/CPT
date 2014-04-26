@@ -1,0 +1,143 @@
+/**
+ * @package Buttercream
+ */
+
+.entry img {
+	max-width: 560px;
+	height: auto;
+}
+img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+}
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+}
+a img {
+	border: none 0px;
+}
+dd.wp-caption-text {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+.wp-caption-text {
+	font-size: 18px;
+	font-family: Trochut, serif;
+	margin-top: 15px;
+	text-align: center;
+	max-width: 530px;
+}
+.wp-caption {
+	background-image: url(img/imgbg.jpg);
+	padding: 20px 15px 30px 15px;
+	border-radius: 4px;
+	max-width: 530px;
+	text-align: center;
+}
+.wp-caption img {
+	border-radius: 6px;
+	max-width: 530px;
+	height: auto;
+}
+.wp-caption.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+}
+.wp-caption.alignright {
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+.wp-caption.alignleft {
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+#gallery {
+	margin: auto;
+	clear: both;
+	position: relative;
+}
+#gallery img {
+	border: 2px solid #fff;
+}
+#gallery .gallery-caption {
+	margin-left: 0;
+}
+.attachment-thumbnail {
+	border: solid 3px #fff;
+}
+body,
+td {
+	font-family: Garamond, Georgia, Times, serif;
+	font-size: 15px;
+	color: #333;
+	line-height: 21px;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: Norican, sans-serif;
+	font-weight: normal;
+}
+blockquote {
+	padding: 15px 30px;
+	margin: 0px;
+	background-color: rgba(250,250,250,.3);
+	font-style: italic;
+}
+p {
+	line-height: 28px;
+}
+ol li ol {
+	list-style-type: lower-alpha;
+}
+ol li ol li ol {
+	list-style-type: lower-roman;
+}
+pre {
+	background-color:rgba(51,51,51,.5);
+	color: #fff;
+	padding: 15px;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover,
+a:active {
+	text-decoration: none;
+}
+table {
+	margin: 0px;
+	padding: 0px;
+	border-collapse: collapse;
+	width: 100%;
+}
+tr,
+td,
+th {
+	vertical-align: top;
+	padding: 5px 15px;
+	margin: 0px;
+	border: 0px none;
+}
+td {
+	border-bottom: 1px solid rgba(51,51,51,.3);
+	background-color: rgba(250,250,250,.3);
+}
+tr.alternate {
+	border-bottom: 1px solid #333;
+	background-color: rgba(250,250,250,.4);
+}
+th {
+	font-weight: normal;
+	text-align: center;
+	color: #fff;
+	font-family: Norican, sans-serif;
+}

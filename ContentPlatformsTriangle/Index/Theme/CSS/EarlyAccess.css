@@ -1,0 +1,199 @@
+@charset 'utf-8';
+
+#joe_title_text {
+	color: #00C63C;
+	font-size: 55px;
+	line-height: 55px;
+}
+
+#joe_subtitle_text {
+	font-family: 'contentfont';
+	color: #939393;
+	font-size: 20px;
+}
+
+.awesome_review_text {
+	color: #4b4b4b;
+	font-size:23px;
+	line-height:1px;
+	font-family: 'coolveticaregular';
+}
+
+.awesome_review_text_small {
+	color: #939393;
+	font-size:15px;
+	font-family: 'disclaimerfont';
+}
+
+.section_title {
+	color: #00C63C;
+	letter-spacing:1px;
+	font-size: 1.8em;
+}
+
+.section_text.green ul {
+	color: #00C63C;
+}
+
+.section_text.red {
+	color: #da4837;
+}
+
+.image_block_right {
+	margin-top: 25px;
+}
+
+.left_section {
+	width: 500px;
+}
+
+.section_text li {
+	text-shadow: 2px 2px #d5d5d5;
+}
+
+#Payment {
+	width: 500px;
+	padding-top: 22px;
+}
+
+#PaypalButton {
+	width: 181px;
+	height: 40px;
+	background-image: url('../Images/Early Access/paypalN.png');
+	margin-right: 5px;
+	float: left;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+#PaypalButton:hover { background-image: url('../Images/Early Access/paypalO.png'); }
+
+#PaypalButton.Locked { background-image: url('../Images/Early Access/paypalI.png'); cursor: auto; }
+
+#PaypalButton.Loading { background-image: url('../Images/Early Access/paypalL.gif'); }
+
+#PriceField {
+	width: 84px;
+	height: 38px;
+	font-size: 30px;
+	color: #83C14C;
+	border: 1px solid #e3e3e3;
+	float: left;
+	padding: 0px 30px 0px 8px;
+	background-image: url('../Images/Early Access/dollarGreen.png');
+	background-repeat: no-repeat;
+	background-position: 93% 50%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+#PriceField.Red {
+	color: #DA4837;
+	background-image: url('../Images/Early Access/dollarRed.png');
+}
+
+#PaymentTextDiv {
+	margin-top: 10px;
+	text-align: right;
+	float: right;
+	width: 500px;
+}
+
+#PaymentTextDiv p {
+	margin: 0;
+}
+
+#ResponseField.Black {
+	color: #4b4b4b;
+}
+
+#ResponseField.Green {
+	color: #83c14c;
+}
+
+#ResponseField.Red {
+	color: #da4837;
+}
+
+#PaymentForm {
+	float: right;
+}
+
+.PaymentPopup .BoxContent .Title {
+	width: auto;
+}
+
+#PaymentSuccessful {
+	height: 266px;
+}
+
+#PaymentSuccessful .BoxContent .Title {
+	color: #00C63C;
+}
+
+.PaymentPopup p {
+	margin-top: 70px;
+}
+
+.PaymentPopup.GenericLightBox .BoxContent {
+	padding: 3% 30px 3% 30px;
+}
+
+.BoxContent #LowerHalf #RightSide input#PayPalAwesomeButton {
+	background-color: #00C63C;
+	margin-top: 0;
+}
+
+.BoxContent #LowerHalf #RightSide input#PayPalAwesomeButton:hover {
+	background-color: #00e144;
+}
+
+#PaymentError .BoxContent .Title {
+	color: #DA4837;
+}
+
+.TipContent.active {
+	opacity: 1;
+}
+
+.TipContent {
+	font-family: "disclaimerfont";
+	font-size: 13px;
+	color: #d4d4d4;
+	text-shadow: 2px 2px #000000;
+	position: relative;
+	display: none;
+	bottom: 380px;
+	padding: 10px;
+	z-index: 1000;
+	line-height: 15px;
+	width:650px;
+	opacity: 0;
+	transition: opacity 0.2s ease-in-out;
+	border-radius: 7px;
+	background: rgba(0, 0, 0, .85);
+	display: block;
+	margin-top: 35px;
+}
+
+.fakelink {
+	color: #2ea4db;
+	font-size:23px;
+	line-height: 25px;
+	font-family: 'coolveticaregular';
+	cursor: pointer;
+}
+
+#ClaimButton {
+	width: 181px;
+	height: 40px;
+	background-image: url('../Images/Early Access/claimN.png');
+	margin-right: 5px;
+	float: left;
+	cursor: pointer;
+}
+
+#ClaimButton:hover {
+	background-image: url('../Images/Early Access/claimO.png');
+}

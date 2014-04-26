@@ -1,0 +1,76 @@
+@charset 'utf-8';
+
+/* Rock Paper Shotgun review */
+.awesome_review {
+	text-align: center;
+
+	padding-top: 20px;
+	padding-bottom: 20px; /* When changing this remember to remove from the height value below */
+}
+.multi_line_image {
+	float: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.awesome_review_single {
+	text-align: center;
+
+	padding-top: 20px;
+	padding-bottom: 20px; /* When changing this remember to remove from the height value below */
+}
+
+/* Rock Paper Shotgun review */
+.awesome_review_text {
+	color: #4b4b4b;
+
+	font-size: 24px;
+	font-family: 'coolveticaregular';
+}
+
+/* Rock Paper Shotgun review */
+.awesome_review_text_author {
+	line-height:2px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.section_title_red {
+	color: #da4837;
+	letter-spacing:1px;
+	font-size: 36px;
+	font-family: 'coolveticaregular';
+	text-shadow: 2px 2px #d5d5d5;
+}
+
+.section_title_green {
+	color: #00C63C;
+	letter-spacing:1px;
+	font-size: 36px;
+	font-family: 'coolveticaregular';
+	text-shadow: 2px 2px #d5d5d5;
+}
+
+#joe_title_text {
+	color: #2564B3;
+	font-size: 55px;
+	line-height: 55px;
+}
+
+#joe_subtitle_text {
+	/* Other font related stuff here */
+	font-family: 'contentfont';
+	color:#939393;
+	font-size: 20px;
+}
+
+.left_section {
+	width: 500px;
+}
+
+#list-indent{
+	text-indent:50px;
+	margin-top:-20px;
+	line-height: 80%;
+	color:#8e8e8e;
+}

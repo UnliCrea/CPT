@@ -1,0 +1,82 @@
+@charset 'utf-8';
+
+.multi_line_image {
+	float: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: -10px;
+}
+
+.DownloadButton {
+	width: 127px;
+	height: 100px;
+	float: left;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+.WindowsDownload {
+	background-image: url('../Images/Download/DownloadWinN.png');
+}
+
+.WindowsDownload:hover {
+	background-image: url('../Images/Download/DownloadWinO.png');
+}
+
+.MacDownload {
+	background-image: url('../Images/Download/DownloadMacN.png');
+}
+
+.MacDownload:hover {
+	background-image: url('../Images/Download/DownloadMacO.png');
+}
+
+.LinuxDownload {
+	background-image: url('../Images/Download/DownloadLinuxN.png');
+}
+.LinuxDownload:hover {
+	background-image: url('../Images/Download/DownloadLinuxO.png');
+}
+table td {
+	padding: 0px 14px;
+}
+
+.ButtonsAndChat{
+	width: 900;
+}
+.WideButtons{
+	float: left;
+	width: 300px;
+	padding-left: 20px;
+	padding-top: 3px;
+}
+
+.OlarkChat{
+	float: right;
+	width: 600px;
+	padding-right: 50px;
+}
+.Disclaimer {
+	color: #939393;
+	font-size: 15px;
+	font-family: 'disclaimerfont';
+	line-height: 15px;
+	text-align: center;
+}
+
+.Disclaimer.Download {
+	width: 500px;
+}
+
+.Problems {
+	text-align: center;
+}
+
+.Problems .Red {
+	color: #DA4837;
+}
+
+.section_title {
+	letter-spacing: 1px;
+}

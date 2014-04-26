@@ -1,0 +1,21 @@
+@charset 'utf-8';
+
+#joe_title_text {
+	color: #2564B3;
+	font-size: 55px;
+}
+
+#joe_subtitle_text {
+	font-family: 'contentfont';
+	color:#939393;
+	font-size: 20px;
+}
+.headline {
+	color: #da4837;
+	font-size: 35px;
+	font-family: 'coolveticaregular';
+	line-height: 90%;
+}
+.regulartext{
+	line-height: 40%;
+}

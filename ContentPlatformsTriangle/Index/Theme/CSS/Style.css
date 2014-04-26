@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'bebas-webfont';
+	src: url('../Fonts/bebas-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'coolveticaregular';
+	src: url('../Fonts/headline-webfont.eot');
+	src: url('../Fonts/headline-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../Fonts/headline-webfont.ttf') format('truetype'),
+		 url('../Fonts/headline-webfont.svg#coolveticaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'contentfont';
+	src: url('../Fonts/content-webfont.eot');
+	src: url('../Fonts/content-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../Fonts/content-webfont.ttf') format('truetype'),
+		 url('../Fonts/content-webfont.svg#coolveticaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'disclaimerfont';
+	src: url('../Fonts/disclaimer-webfont.eot');
+	src: url('../Fonts/disclaimer-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../Fonts/disclaimer-webfont.ttf') format('truetype'),
+		 url('../Fonts/disclaimer-webfont.svg#coolveticaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+a:link {color:#2ea4db;}      /* unvisited link */
+a:visited {color:#2ea4db;}  /* visited link */
+a:hover {color:#3fb7ee;}  /* mouse over link */
+a:active {color:#94d5f7;}  /* selected link */
+
+body {
+	/* Default font. If another has to be used, override it in the class or id part */
+	font-size: 18px;
+	color: #4b4b4b;
+
+	background-image: url('../Images/Generic/background.jpg');
+	background-position: 50% 0px;
+	background-repeat: repeat;
+	background-color: #e6e6e6;
+
+	margin: 0;
+}
+
+#Container {
+	width: 1000px;
+	margin: auto;
+	font-family: 'contentfont';
+	padding-top: 50px;
+}
+
+#joe_title {
+	/* Align text everywhere inside the title area */
+	text-align: center;
+	font-family: 'bebas_neueregular';
+	line-height: 35px;
+	padding-top: 20px;
+}
+
+#joe_title_text {
+	text-align: center;
+	text-shadow: 2px 2px #d5d5d5;
+}
+
+#joe_subtitle_text {
+	text-align: center;
+	text-shadow: 2px 2px #d5d5d5;
+}
+
+.awesome_review_single {
+	text-align: center;
+	padding: 0px 20px;
+}
+
+.awesome_review_text_container {
+	vertical-align: middle;
+}
+
+/* Container of information */
+.container {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left_section {
+	margin-right: 20px; /* 1000 - 480(image) - 500(text) */
+	float: left;
+}
+
+.right_section {
+	width: 500px;
+	margin-left: 20px; /* 1000 - 480(image) - 500(text) */
+	float: left;
+}
+
+/* Block for an image in a section */
+.image_block {
+	width: 480px;
+	float: left;
+}
+
+#coming_sometime_text {
+	font-size: 1.2em;
+}
+
+.section_title {
+	font-weight: bold;
+	text-shadow: 2px 2px #d5d5d5;
+	font-family: 'coolveticaregular';
+}
+
+.section_text ul {
+	margin-left: 0;
+	padding-left: 0px;
+	list-style-position: inside;
+}
+
+.image_block_right {
+	width: 480px;
+	float: right;
+}
+
+#Buttons {
+	float: right;
+}

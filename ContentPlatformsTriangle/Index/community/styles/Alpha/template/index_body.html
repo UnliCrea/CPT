@@ -1,0 +1,26 @@
+<!-- INCLUDE overall_header.html -->
+
+<p class="{S_CONTENT_FLOW_END}<!-- IF S_USER_LOGGED_IN --> rightside<!-- ENDIF -->"></p>
+<!-- IF U_MCP --><p>[&nbsp;<a href="{U_MCP}">{L_MCP}</a>&nbsp;]</p><!-- ENDIF -->
+
+<!-- INCLUDE forumlist_body.html -->
+
+<br />
+
+<div style="text-align: center;">
+<!-- IF S_USER_LOGGED_IN --><p>{CURRENT_TIME}</p><!-- ENDIF -->
+<p>
+	<!-- IF S_USER_LOGGED_IN --><a href="{U_VIEWONLINE}">Who is online</a> | <!-- ENDIF -->
+	<!-- IF not S_IS_BOT and U_MARK_FORUMS --><a href="{U_MARK_FORUMS}" accesskey="m">{L_MARK_FORUMS_READ}</a> | <!-- ENDIF -->
+    <!-- IF U_TEAM --><a href="{U_TEAM}">{L_THE_TEAM}</a><!-- ENDIF -->
+    <!-- IF S_USER_LOGGED_IN --> | <a href="{U_MEMBERLIST}">Forum users</a><!-- ENDIF -->
+</p>
+</div>
+
+
+<!-- IF NEWEST_USER -->
+	<h3>{L_STATISTICS}</h3>
+	<p>{TOTAL_POSTS} &bull; {TOTAL_TOPICS} &bull; {TOTAL_USERS} &bull; {NEWEST_USER}</p>
+<!-- ENDIF -->
+
+<!-- INCLUDE overall_footer.html -->

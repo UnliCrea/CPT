@@ -1,0 +1,70 @@
+@charset 'utf-8';
+
+            .multi_line_image {
+                  float: center;
+                  margin-left: 10px;
+                  margin-right: 10px;
+            }
+
+            #joe_title {
+                /* Align text everywhere inside the title area */
+                text-align: center;
+
+                font-family: 'bebas_neueregular';
+                line-height: 35px;
+                padding-top: 20px;
+            }
+
+            #joe_title_text {
+                /* Other font related stuff here */
+                text-align: center;
+                color:#2564B3;
+                text-shadow: 2px 2px #d5d5d5;
+                /*padding-left: 10px; */
+                font-size: 55px;
+            }
+
+            #joe_note_text {
+                /* Other font related stuff here */
+                font-family: 'contentfont';
+                color:#939393;
+                text-align: center;
+                text-shadow: 2px 2px #d5d5d5;
+                font-size: 20px;
+            }
+
+            .notes{
+                width: "1000px";
+                text-align: left;
+            }
+
+            
+            #version {
+                font-size: 30px;
+                font-weight: bold;
+
+                color: #2564B3;
+                text-shadow: 2px 2px #d5d5d5;
+                font-size: 25px;
+	           	letter-spacing: 1px;
+                font-family: 'coolveticaregular';
+            }
+	    
+	        #date {
+                font-size: 15px;
+                color:#939393;
+            }
+
+	        #category {
+                font-size: 17px;
+                color:#4b4b4b;
+		        margin-left:30px;
+            }
+            
+
+            #changes {
+                font-size: 15px;
+		        font-family: 'disclaimerfont';
+                color:#848484;
+		        margin-left:60px;
+            }
