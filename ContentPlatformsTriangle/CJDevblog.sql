@@ -7,7 +7,7 @@
 -- Server version: 5.5.37-0ubuntu0.14.04.1
 -- PHP Version: 5.5.9-1ubuntu4.2
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";T
 SET time_zone = "+00:00";
 
 
@@ -2254,7 +2254,7 @@ CREATE TABLE IF NOT EXISTS `wp_users` (
 --
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
-(1, 'TheNavigator', '$P$BaGDJki.gWKGJEcIPCuc2P/xlwx.7u.', 'thenavigator', 'sasa@unlicrea.com', '', '2013-12-21 01:00:32', '', 0, 'TheNavigator'),
+(1, 'TheNavigator', 'PASSWORD', 'thenavigator', 'sasa@unlicrea.com', '', '2013-12-21 01:00:32', '', 0, 'TheNavigator'),
 (2, 'aa', '$P$BM1W8h72iMhCnhAHPPKbflk0oOpFIZ/', 'aa', '', '', '2013-12-24 00:15:43', '', 0, 'aa'),
 (3, 'lalalala', '$P$BWsMZEBaGwjBqte..iIogm7hhzQ7zy1', 'lalalala', 'lala@unlicrea.com', '', '2013-12-24 00:17:09', '', 0, 'lalalala'),
 (4, 'sasa', '$P$BC4aqbIRcqOC5ttPtZ7xIHxoHsEqn81', 'sasa', 'sasa@unlicrea.com', '', '2013-12-24 13:24:36', '', 0, 'sasa'),
