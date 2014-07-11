@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jul 01, 2014 at 09:41 AM
+-- Generation Time: Jul 11, 2014 at 04:11 AM
 -- Server version: 5.5.37-0ubuntu0.14.04.1
 -- PHP Version: 5.5.9-1ubuntu4.2
 
@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `GeneralSettings` (
 --
 
 INSERT INTO `GeneralSettings` (`ID`, `SettingKey`, `SettingValue`) VALUES
-(1, 'AvailableEarlyAccessLicenses', '0');
+(1, 'AvailableEarlyAccessLicenses', '10');
 
 -- --------------------------------------------------------
 
@@ -123,6 +123,18 @@ INSERT INTO `PayPalTokens` (`ID`, `Token`, `UserID`, `Cleared`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `RememberUserTokens`
+--
+
+CREATE TABLE IF NOT EXISTS `RememberUserTokens` (
+  `true` int(10) unsigned DEFAULT NULL,
+  `UserID` varchar(60) DEFAULT NULL,
+  `Token` varchar(60) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `Users`
 --
 
@@ -136,14 +148,14 @@ CREATE TABLE IF NOT EXISTS `Users` (
   `RegistrationTimestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `EarlyAccess` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=11 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=14 ;
 
 --
 -- Dumping data for table `Users`
 --
 
 INSERT INTO `Users` (`ID`, `Username`, `Email`, `Password`, `Salt`, `Verified`, `RegistrationTimestamp`, `EarlyAccess`) VALUES
-(1, 'aa', 'aa', '8ed19e493aa02f290874e76a333967037289e75cc739b60f6e684c86f6544612fd207891662eed12e8249cbdb18105ba1661a8f275f385ce8e37856f522915a0', '=/ äP_kÚ', 0, '2014-01-04 21:52:33', 1);
+(8, 'Founder', 'founder@yoursite.com', '82dfcdb3ec91e4cccd85854826471eeb0d821b29f5201bdd33970e48ed290969d669dc1a6bcf5f8bf2db7d723dca7abc20a0bbcb7fa4f8cbfcb211052aedf4ed', 'É"ôÝcÝâ z+', 1, '2014-07-11 00:10:22', 1);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
