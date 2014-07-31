@@ -40,6 +40,7 @@ class GenericOperationsModel implements GenericOperationsModelInterface {
 		require_once(dirname(__FILE__) . '/../PHPMailer/class.phpmailer.php');
 
 		$mail = new \PHPMailer();  // create a new object
+		$mail->CharSet = 'UTF-8';
 		$mail->SetFrom('noreply@concernedjoe.com', "Concerned Joe");
 		$mail->AddAddress($address);
 		$mail->Subject = $subject;
