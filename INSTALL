@@ -1,0 +1,40 @@
+CPT Installation Guide
+Created by marsdenisarobot (dreamsintelligence.com)
+
+!!! PLEASE FOLLOW THESE INSTRUCTIONS CAREFULLY !!!
+
+
+Before you start make sure you have the latest version of PHP and MySQL.
+Please make sure .htaccess and mod_rewrite are enabled.
+
+1. Extract the CPT zip to your document root.
+2. Execute the SQL queries in THIS ORDER: CJMain.sql CJDevblog.sql CJCommunity.sql
+3. Open Library/Model/DBConnectionModel.php with a text editor and:
+Change the Database Config in mainDBLink() to:
+$db_host	= '<YOUR SQL SERVER>';	//Hostname
+$db_database	= 'CJMain';	//Database name
+$db_user	= '<YOUR DATABASE USER>';
+$db_pass	= '<YOUR DATABASE PASSWORD>';
+Change the Database Config in phpBBDBLink() to:
+$db_host	= '<YOUR SQL SERVER>';	//Hostname
+$db_database	= 'CJCommunity';	//Database name
+$db_user	= '<YOUR DATABASE USER>';
+$db_pass	= '<YOUR DATABASE PASSWORD>';
+4. Open the document root in your web browser.
+5. Go through the various installation procedures for Wordpress and phpBB.
+6. You should now be able to create an account and log in.
+7. Modify the CSS and theme in Index/Theme.
+8. Modify the HTML code in Library/View.
+
++++ TROUBLESHOOTING +++
+
+Help! I'm getting a lot of 404 errors!
+Answer: You should have read the instructions. .htaccess and mod_rewrite need to be ON.
+
+Help! I'm getting a database connection error!
+Follow Step 3 correctly and check your database host, name, user, pass, and make sure you executed the query.
+
+Remember CPT is still in the beta stage. Don't blame us for any unexplained problems.
+For any other support email marsdenisarobot (joseph.clayton.marsden@gmail.com) or Nav (nav@unlicrea.com)
+
++++ TROUBLESHOOTING +++
