@@ -41,7 +41,7 @@ class GenericOperationsModel implements GenericOperationsModelInterface {
 
 		$mail = new \PHPMailer();  // create a new object
 		$mail->CharSet = 'UTF-8';
-		$mail->SetFrom('noreply@concernedjoe.com', "Concerned Joe");
+		$mail->SetFrom('noreply@your-website.com', "Content Platforms Triangle");
 		$mail->AddAddress($address);
 		$mail->Subject = $subject;
 		$mail->Body = $body;
