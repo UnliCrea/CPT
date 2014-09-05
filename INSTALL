@@ -8,6 +8,9 @@ Before you start make sure you have the latest version of PHP and MySQL.
 Please make sure .htaccess and mod_rewrite are enabled.
 
 1. Extract the CPT zip to your document root.
+-=IMPORTANT (PLEASE READ!)=-
+YOU NEED TO CHANGE THE APACHE DOCUMENT ROOT TO THE "Index" FOLDER OTHERWISE CPT WILL NOT WORK
+-=IMPORTANT (PLEASE READ!)=-
 2. Execute the SQL queries in THIS ORDER: CJMain.sql CJDevblog.sql CJCommunity.sql
 3. Open Library/Model/DBConnectionModel.php with a text editor and:
 Change the Database Config in mainDBLink() to:
@@ -33,6 +36,9 @@ Answer: You should have read the instructions. .htaccess and mod_rewrite need to
 
 Help! I'm getting a database connection error!
 Follow Step 3 correctly and check your database host, name, user, pass, and make sure you executed the query.
+
+Help! I'm getting a screen with two folders, Index and Library!
+Read Step #1 more carefully. Goodbye.
 
 Remember CPT is still in the beta stage. Don't blame us for any unexplained problems.
 For any other support email marsdenisarobot (joseph.clayton.marsden@gmail.com) or Nav (nav@unlicrea.com)
