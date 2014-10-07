@@ -23,6 +23,7 @@ $db_host	= '<YOUR SQL SERVER>';	//Hostname
 $db_database	= 'CJCommunity';	//Database name
 $db_user	= '<YOUR DATABASE USER>';
 $db_pass	= '<YOUR DATABASE PASSWORD>';
+!!! You must also remember to change phpBB and Wordpress's config for the databases !!!
 4. Open the document root in your web browser.
 5. Go through the various installation procedures for Wordpress and phpBB.
 6. You should now be able to create an account and log in.
