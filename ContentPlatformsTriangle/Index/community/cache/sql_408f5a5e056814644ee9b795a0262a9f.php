@@ -1,5 +1,0 @@
-<?php exit; ?>
-1398364017
-SELECT * FROM phpbb_bbcodes WHERE bbcode_id = 16
-763
-a:1:{i:0;a:10:{s:9:"bbcode_id";s:2:"16";s:10:"bbcode_tag";s:13:"strikethrough";s:15:"bbcode_helpline";s:25:"Strikethrough alternative";s:18:"display_on_posting";s:1:"1";s:12:"bbcode_match";s:37:"[strikethrough]{TEXT}[/strikethrough]";s:10:"bbcode_tpl";s:58:"<span style="text-decoration: line-through;">{TEXT}</span>";s:16:"first_pass_match";s:45:"!\[strikethrough\](.*?)\[/strikethrough\]!ies";s:18:"first_pass_replace";s:154:"'[strikethrough:$uid]'.str_replace(array("\r\n", '\"', '\'', '(', ')'), array("\n", '"', '&#39;', '&#40;', '&#41;'), trim('${1}')).'[/strikethrough:$uid]'";s:17:"second_pass_match";s:53:"!\[strikethrough:$uid\](.*?)\[/strikethrough:$uid\]!s";s:19:"second_pass_replace";s:56:"<span style="text-decoration: line-through;">${1}</span>";}}
