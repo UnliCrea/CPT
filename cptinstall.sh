@@ -1,6 +1,6 @@
 #!/bin/sh
 # Installer script built by Joseph Marsden
-# <joseph.clayton.marsden@gmail.com>
+# <dreamsintel@gmail.com>
 # https://cryosim.co
 # http://unlicrea.com
 # Content Platforms Triangle is licensed under the MIT License..
