@@ -11,7 +11,7 @@ Warning: this script is unstable and should be used with caution. UnliCrea is no
 
 Developers
 
-TheNavigat, marsdenisarobot
+TheNavigat, CitadelCore
 
 ===
 
